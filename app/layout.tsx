@@ -8,6 +8,7 @@ const manrope = Manrope({ subsets: ['latin'] })
 export const metadata: Metadata = {
   icons: [
     {
+      rel: 'icon',
       sizes: '32x32',
       type: 'image/png',
       url: '/favicon.png',
