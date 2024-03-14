@@ -6,7 +6,13 @@ import { Manrope } from 'next/font/google'
 const manrope = Manrope({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  icons: ['/favicon.png'],
+  icons: [
+    {
+      sizes: '32x32',
+      type: 'image/png',
+      url: '/favicon.png',
+    },
+  ],
   title: 'Advice generator app',
   description: 'Advice generator app',
   keywords: ['advice', 'generator', 'app'],

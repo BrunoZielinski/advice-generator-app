@@ -8,9 +8,9 @@ export default async function Page() {
     return (
       <main className="min-h-screen flex items-center justify-center bg-dark-blue p-4">
         <div className="p-6 bg-dark-grayish-blue shadow-md rounded-xl">
-          <p className="text-center text-light-cyan font-extrabold">
+          <h1 className="text-center text-light-cyan font-extrabold">
             Failed to fetch advice
-          </p>
+          </h1>
         </div>
       </main>
     )
