@@ -26,9 +26,9 @@ export const AdviceCard = ({ data }: AdviceProps) => {
         Advice #{data.id}
       </p>
 
-      <p className="text-light-cyan font-extrabold leading-tight text-center text-xl max-w-[20.625rem] mt-6 mx-auto">
+      <h1 className="text-light-cyan font-extrabold leading-tight text-center text-xl max-w-[20.625rem] mt-6 mx-auto">
         <q>{data.advice}</q>
-      </p>
+      </h1>
 
       <Image
         width={200}
